@@ -2,8 +2,8 @@
   display: inline-block;
   width: 1.2em;      /* matches bx icon size */
   height: 1.2em;
-  mask: url('../img/icons/bluesky.svg') no-repeat center / contain;
-  -webkit-mask: url('../img/icons/bluesky.svg') no-repeat center / contain;
+  mask: url('../img/bluesky.svg') no-repeat center / contain;
+  -webkit-mask: url('../img/bluesky.svg') no-repeat center / contain;
   background-color: currentColor; /* lets it follow text color */
   vertical-align: -0.125em; /* aligns baseline like bx icons */
 }
