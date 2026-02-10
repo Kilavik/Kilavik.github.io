@@ -144,7 +144,7 @@ h6 {
   }
 
   #main {
-    margin-left: 0;
+    margin-left: 300; /* was zero before changed by Bjorg */
   }
 
   .container,
@@ -244,6 +244,7 @@ h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+  margin-left: 300px; /* line added by Bjorg */
 }
 
 #hero:before {
