@@ -1141,29 +1141,17 @@ section {
 
 
 
+/* --- Bluesky icon like other social icons --- */
 
-  
-/* iPortfolio: Bluesky icon */
-#header .profile .social-links a.bluesky-link {
-  background: #212431 url("../img/bluesky.svg") no-repeat center;
-  background-size: 18px 18px;
+.social-links a.bluesky-link {
+  background-color: #149ddd; /* same as others */
+  -webkit-mask: url("../img/bluesky.svg") no-repeat center;
+  mask: url("../img/bluesky.svg") no-repeat center;
+  -webkit-mask-size: 18px 18px;
+  mask-size: 18px 18px;
 }
 
-/* Keep hover behavior consistent */
-#header .profile .social-links a.bluesky-link:hover {
-  background-color: #149ddd;
-}
-
-
-  /* Fix alignment with other icons */
-#header .profile .social-links a {
-  vertical-align: middle;
-}
-
-/* Bluesky icon for iPortfolio */
-#header .profile .social-links a.bluesky-link {
-  background-image: url("../img/bluesky.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 18px 18px;
+/* On hover, keep same behavior as others */
+.social-links a.bluesky-link:hover {
+  background-color: #37b3ed;
 }
