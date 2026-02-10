@@ -128,15 +128,19 @@ h6 {
 }
 
 
+/* --- Fix Bluesky social icon --- */
 .social-links a.bluesky-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  vertical-align: middle !important;
 }
 
-.social-links img.bluesky-icon {
-  width: 20px;
-  height: 20px;
+.social-links a.bluesky-link img.bluesky-icon {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: transparent !important;
 }
 
 
