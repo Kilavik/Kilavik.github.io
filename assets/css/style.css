@@ -1104,3 +1104,15 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bluesky-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
