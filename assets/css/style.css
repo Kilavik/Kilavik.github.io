@@ -1109,13 +1109,14 @@ section {
 
 
 
+/* iPortfolio: fix Bluesky icon inside social circle */
 #header .profile .social-links a.bluesky-link {
-  padding: 0;              /* override template padding */
+  padding: 0;            /* remove original 8px padding */
+  line-height: 0;         /* ensures SVG centers properly */
 }
 
 #header .profile .social-links a.bluesky-link img.bluesky-icon {
-  width: 18px;
+  width: 18px;           /* same as font icons */
   height: 18px;
   display: block;
-  margin: 9px auto;        /* centers inside 36x36 circle */
-}
+  margin: 9px auto;      /* centers inside 36px circle */
