@@ -1108,7 +1108,6 @@ section {
 
 
 
-/*--------------------------------------------------------------
 /* iPortfolio: fix Bluesky icon inside social circle */
 #header .profile .social-links a.bluesky-link {
   padding: 0;            /* remove original 8px padding */
@@ -1121,8 +1120,10 @@ section {
   display: block;
   margin: 9px auto;      /* centers inside 36px circle */
 
-  --------------------------------------------------------------*/
 
+
+
+  
 /* iPortfolio: Bluesky icon */
 #header .profile .social-links a.bluesky-link {
   background: #212431 url("../img/bluesky.svg") no-repeat center;
