@@ -77,10 +77,10 @@ h6 {
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
-  transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
-  overflow-y: auto;
+  overflow-y: auto; /* ADDED FIX: makes sidebar scrollable if too tall */
+  box-sizing: border-box; /* ADDED FIX: ensures padding doesn't break width */
 }
 
 #header .profile img {
@@ -129,7 +129,8 @@ h6 {
 
 
 #main {
-  margin-left: 300px;
+  margin-left: 300px; /* keeps content off the sidebar */
+  transition: margin-left 0.3s ease-in-out; /* ADDED FIX */
 }
 
 .container,
@@ -144,7 +145,7 @@ h6 {
   }
 
   #main {
-    margin-left: 300; /* was zero before changed by Bjorg */
+    margin-left: 0; /* ADJUSTED for smaller screens */
   }
 
   .container,
@@ -240,11 +241,13 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width: calc(100% - 300px); /* ADDED FIX: ensures hero doesn’t extend under sidebar */
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
-  margin-left: 300px; /* line added by Bjorg */
+  margin-left: 300px; /* keeps hero content off the sidebar */
+  position: relative; /* ensures overlay z-index works */
+  box-sizing: border-box; /* ADDED FIX */
 }
 
 #hero:before {
@@ -430,6 +433,7 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+
 
 /*--------------------------------------------------------------
 # Akills
