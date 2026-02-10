@@ -1116,3 +1116,29 @@ section {
   height: 18px;
   display: block;
 }
+
+/* Make SVG behave like the icon fonts in social links */
+.social-links a {
+  position: relative;
+}
+
+.social-links a .bluesky-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+
+/* Center the SVG inside the circle */
+.social-links a span.icon-replace {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Hide any overflow so the SVG can't escape the circle */
+.social-links a {
+  overflow: hidden;
+}
+
