@@ -1116,7 +1116,7 @@ section {
 }
 
 #header .profile .social-links a.bluesky-link img.bluesky-icon {
-  width: 18px;           /* same as font icons */
-  height: 18px;
+  width: 10px;           /* same as font icons */
+  height: 10px;
   display: block;
   margin: 3px auto;      /* centers inside 36px circle */
