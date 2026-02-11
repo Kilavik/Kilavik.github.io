@@ -88,8 +88,8 @@ h6 {
   position: fixed;
   top: 0;
   left: 0;
-  /* bottom: 0; /* commented out by Bjorg */
-  height: calc(100vh - 0px); /* 50px = height of footer - added by Bjorg */
+  bottom: 0; /* commented out by Bjorg */
+  /* height: calc(100vh - 0px); /* 50px = height of footer - added by Bjorg */
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -99,9 +99,9 @@ h6 {
   overflow-y: auto;
 
   /* Added for scrollbar behavior */
-  box-sizing: border-box;
+  /*box-sizing: border-box; */
   
-}   */
+}
 
 #header .profile img {
   margin: 15px auto;
