@@ -70,26 +70,26 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 /* Sidebar */
-#header {
+/*#header {
   position: fixed;
   top: 0;
   left: 0;
   width: 300px;
-  height: 100vh; /* full viewport height */
+  height: 100vh; /* full viewport height
   padding: 0 15px;
-  padding-bottom: 60px; /* same as footer height, allows last links to scroll above footer */
+  padding-bottom: 60px; /* same as footer height, allows last links to scroll above footer
   background: #040b14;
   overflow-y: auto;
   box-sizing: border-box;
   z-index: 9997;
-}
+} */
 
-/* #header {
+#header {
   position: fixed;
   top: 0;
   left: 0;
-  /* bottom: 0; /* commented out by Bjorg
-  height: calc(100vh - 450px); /* 150px = height of footer - added by Bjorg
+  /* bottom: 0; /* commented out by Bjorg */
+  height: calc(100vh - 50px); /* 150px = height of footer - added by Bjorg */
   width: 300px;
   transition: all ease-in-out 0.5s;
   z-index: 9997;
@@ -98,7 +98,7 @@ h6 {
   background: #040b14;
   overflow-y: auto;
 
-  /* Added for scrollbar behavior
+  /* Added for scrollbar behavior */
   box-sizing: border-box;
   
 }   */
