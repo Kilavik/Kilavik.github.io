@@ -81,6 +81,10 @@ h6 {
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
+
+  /* Added for scrollbar behavior */
+  box-sizing: border-box;
+  
 }
 
 #header .profile img {
