@@ -264,7 +264,7 @@ h6 {
   min-width: 300px;
 
 /* ADDED: Push hero text right so it doesn't get covered by sidebar */
-  padding-left: 20px; /* or adjust 15-30px depending on taste */
+  padding-left: 50px; /* or adjust 15-30px depending on taste */
   box-sizing: border-box; /* ensures padding doesn’t break layout */
 }
 
